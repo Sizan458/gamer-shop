@@ -1,3 +1,4 @@
+/* share css style start */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@800&family=Work+Sans:wght@700;800&display=swap');
 *{
    padding: 0px; 
@@ -9,3 +10,22 @@ body{
     font-family: 'Work Sans', sans-ser;
    box-sizing: border-box;
 }
+ .text-colors{
+   background: linear-gradient(180deg, #f94848 0%, #06040a 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+ }
+
+/* share css style end */
+
+/* website responsive area */
+
+/* responsive area for mobile */
+@media screen and (max-width:576px ){
+   
+}
+/* responsive area for laptop ,pc,& tablet*/
+@media screen  and (min-width:576px )  and (max-width:960px){ 
+    
+  }   
