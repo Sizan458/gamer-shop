@@ -268,6 +268,7 @@ height:50px;
 margin-bottom: 15px;
 margin-left: 40px;
 
+
 }
 .section4-container1:hover{
    border: 2px solid palevioletred;
@@ -288,9 +289,71 @@ font-size: 19px;
 }
 /* section 4 css style end */
 
+.footer{
+   margin-top: 100px;
+  
+   background-color: #534C64;
+   align-items: center;
+   justify-content: center;
+}
+.footer-container1{
+   margin-top: 10px;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.footer-container1>img{
+   height: 70px;
+   width: 70px;
+}
+.footer-container2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
 
+}
+.footer-container3{
+   display: flex;
+   align-items: center;
+   justify-items: center;
+   gap: 30px;
+   margin-left: 550px;
+   margin-top: 30px;
+}
+.footer-container4{
+   display: flex;
+   align-items: center;
+   justify-items: center;
+   gap: 30px;
+   margin-top: 30px;
+   margin-left: 400px;
+}
+.footer-container2-texts{
+   color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 600;
+}
+.footer-container3-pics{
+   width: 40px;
+height: 40px;
 
+}
+ hr{
+  width: 430px;
+  margin-top: 30px;
+  margin-left: 540px;
+ }
+ .footer-container5-texts{
+   color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+margin-top: 20px;
 
+ }
 
 
 /* website responsive area */
@@ -298,7 +361,8 @@ font-size: 19px;
 @media screen and (max-width:376px ){
    /* nav responsive start  */
  nav{
-   width: 100%;
+  
+   width: 500%;
    height: 100;
   flex-direction: column;
  
@@ -406,20 +470,17 @@ font-size: 19px;
 }
 /*section 3 responsive end */
 /*section 4 responsive start */
+
 .section4{
    width: 100%;
-   display: grid;
-   grid-template-columns: repeat(3,3fr);
+  
 
 }
-.section4-container1{
- width: 100%; 
- 
-}
+
 /*section 4 responsive end */
-
 }
 
+   
 
 /* responsive area for mobile large */
 @media screen and (max-width:576px ){
@@ -506,19 +567,13 @@ font-size: 19px;
        }
        /*section 3 responsive end */
        /*section 4 responsive start */
-       .section4{
-         width: 100%;
-         margin-right: 10px;
-         gap: px;
-         display: grid;
-         grid-template-columns: repeat(3,3fr);
-      
-      }
-      .section4-container1{
-       width: 100%; 
        
-      }
+      
       /*section 4 responsive end */
+      .footer{
+         width: 100%;
+
+      }
 
 }
 /* responsive area for laptop ,pc,& tablet*/
@@ -584,6 +639,9 @@ font-size: 19px;
    .section4{
       width: 100%;
    }
-   /* section 4 responsive end*/      
+   /* section 4 responsive end*/    
+   .footer{
+      width: 100%;
+   }  
      
   }   
