@@ -141,6 +141,7 @@ font-weight: 500;
   color: white;
   padding: 2px 4px;
   margin-right: 20px;
+  cursor: pointer;
 }
 .section1-btn2{
    height: 36px;
@@ -150,8 +151,58 @@ font-weight: 500;
   border: none;
   padding: 2px 4px;
   color: white;
+  cursor: pointer;
 }
 /* section 1 css style end */
+/* section 2 css style start */
+.section2{
+ width: 80%;
+ margin: auto;
+}
+.section2 >h3{
+   color: #0B0223;
+   text-align: center;
+font-size: 48px;
+font-weight: 700;
+margin-bottom: 20px;
+
+}
+.section2 >p{
+   color: #534C64;
+   text-align: center;
+   font-size: 18px;
+   font-weight: 400;  
+}
+.section2-container1{
+   display: flex;
+  margin-top: 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.section2-container2>img{
+   width: 342px;
+height: 400px;
+margin-bottom: 10px;
+object-fit: cover;
+}
+.section2-container2>p{
+   color: #534C64;
+font-size: 20px;
+font-weight: 500;
+}
+.section2-container2>img:hover{
+   border: 5px solid rgb(174, 53, 73);
+   border-radius: 16px;
+ background: url("images/icons8-play-24.png"), lightgray 50%, linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+/* section 2 css style end */
+
+
+
 
 
 
@@ -226,10 +277,20 @@ font-weight: 500;
 .section1-btn1 {
    margin-left: 20px;
 } 
-
+/*section 1 responsive end */
+/*section 2 responsive start */
+.section2-container1{
+  width: 100%;
+  flex-direction: column;
+}
+.section2-container2>img{
+   width: 100%;
 
 }
- /*section 1 responsive end */
+/*section 2 responsive end */
+
+}
+ 
 
 
 /* responsive area for mobile large */
@@ -268,7 +329,7 @@ font-weight: 500;
          flex-direction: column-reverse;
       }
       .section1-pic{
-         margin-top: 120px;
+         margin-top: 90px;
          width: 85%;
          
          margin-bottom: 10px;
@@ -278,6 +339,16 @@ font-weight: 500;
          margin-left: 50px;
       } 
        /*section 1 responsive end */
+       /*section 2 responsive start */
+       .section2-container1{
+         width: 100%;
+         flex-direction: column;
+       }
+       .section2-container2>img{
+          width: 100%;
+       
+       }
+       /*section 2 responsive end */
 }
 /* responsive area for laptop ,pc,& tablet*/
 @media screen  and (min-width:576px )  and (max-width:960px){ 
@@ -308,5 +379,14 @@ font-weight: 500;
       margin-left: 50px;
    } 
     /* section 1 responsive end*/
-   
+     /* section 2 responsive start*/
+    .section2-container1{
+      width: 100%;
+      flex-direction: column;
+    }
+    .section2-container2>img{
+       width: 100%;
+    
+    }
+   /* section 2 responsive end*/
   }   
